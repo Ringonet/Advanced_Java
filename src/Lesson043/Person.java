@@ -1,3 +1,6 @@
+package Lesson043;
+
+
 @Author(name = "Artem", dateOfCreation = 2021)
 public class Person {
     private int id;
@@ -32,5 +35,12 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
-}
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+}
